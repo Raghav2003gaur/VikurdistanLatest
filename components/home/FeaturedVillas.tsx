@@ -13,7 +13,7 @@ const villas = [
     description:
       "Warm, sunlit villa ideal for families, close to valleys and village life.",
     price: "$150/night",
-    image: "/villa-valley-landscape-peaceful-nature.jpg",
+    image: "/images/yellowvillaCard.png",
   },
   {
     id: "red-villa",
@@ -22,7 +22,7 @@ const villas = [
     description:
       "Spacious hilltop stay with bold interiors and sweeping mountain views.",
     price: "$250/night",
-    image: "/luxury-villa-mountain-view-modern-architecture.jpg",
+    image: "/images/redVillaCard.png",
   },
   {
     id: "blue-villa",
@@ -31,7 +31,7 @@ const villas = [
     description:
       "Modern villa with cool tones, large terrace, and a relaxing atmosphere.",
     price: "$200/night",
-    image: "/villa-gardens-luxury-residence-oasis.jpg",
+    image: "/images/blueVillaCard.png",
   },
 ];
 

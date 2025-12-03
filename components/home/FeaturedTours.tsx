@@ -10,9 +10,9 @@ const tours = [
     id: "halgurd-expedition",
     title: "Halgurd Mountain Expedition",
     description:
-      "Snow-capped peaks, alpine lakes, and guided climbs across Iraq’s highest mountain.",
+      "Snow-capped peaks, alpine lakes, and guided climbs across Iraq's highest mountain.",
     duration: "3 days",
-    image: "/mountain-summit-trekking-peak.jpg",
+    image: "/images/halgurd.png",
     link: "/tours#mountain-escapes",
   },
   {
@@ -21,7 +21,7 @@ const tours = [
     description:
       "Ancient citadels, monasteries, and heritage sites combined with bustling bazaars and local cuisine.",
     duration: "4 days",
-    image: "/ancient-citadel-architecture-bazaar.jpg",
+    image: "/images/kurdistantour.png",
     link: "/tours#city-experiences",
   },
   {
@@ -30,7 +30,7 @@ const tours = [
     description:
       "Multi-day trek across the Zagros range with waterfalls, remote villages, and panoramic viewpoints.",
     duration: "7 days",
-    image: "/gorge-canyon-rock-formations.jpg",
+    image: "/images/zorgosMountain.png",
     link: "/tours#mountain-escapes",
   },
 ];

@@ -151,25 +151,39 @@ export default function AboutKurdistanPage() {
               {
                 title: "Erbil Citadel",
                 desc: "UNESCO World Heritage site with 5,500 years of history.",
+                image: "/images/kurdistantour.png",
               },
               {
                 title: "Halgurd Mountain",
                 desc: "Dramatic peaks offering stunning panoramic views.",
+                image: "/images/halgurd.png",
               },
               {
                 title: "Darbandikhan Lake",
                 desc: "Pristine alpine lake surrounded by mountains.",
+                image: "/images/halgurdImg/15.png",
               },
               {
                 title: "Rawandiz Gorge",
                 desc: "Dramatic canyon with ancient geological formations.",
+                image: "/images/zorgosMountain.png",
               },
             ].map((attr, idx) => (
-              <div key={idx} className="bg-background rounded-xl p-8 space-y-3">
-                <h4 className="text-2xl font-serif font-bold text-foreground">
-                  {attr.title}
-                </h4>
-                <p className="text-muted-foreground">{attr.desc}</p>
+              <div
+                key={idx}
+                className="bg-background rounded-xl overflow-hidden"
+              >
+                <img
+                  src={attr.image}
+                  alt={attr.title}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-8 space-y-3">
+                  <h4 className="text-2xl font-serif font-bold text-foreground">
+                    {attr.title}
+                  </h4>
+                  <p className="text-muted-foreground">{attr.desc}</p>
+                </div>
               </div>
             ))}
           </div>
