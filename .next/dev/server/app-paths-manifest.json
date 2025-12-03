@@ -1,8 +1,0 @@
-{
-  "/about-kurdistan/page": "app/about-kurdistan/page.js",
-  "/book-villa/[slug]/page": "app/book-villa/[slug]/page.js",
-  "/book-villa/page": "app/book-villa/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js",
-  "/tours/page": "app/tours/page.js"
-}
